@@ -3,7 +3,7 @@ package com.cydeo.solid.interfaceSegregation.example.bad;
 import java.util.ArrayList;
 import java.util.List;
 
-public class App {
+public class MyApp {
 
     public static void main(String[] args) {
 

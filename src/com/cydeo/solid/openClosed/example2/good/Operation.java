@@ -1,11 +1,7 @@
-package com.cydeo.solid.openClosed.example2.bad;
+package com.cydeo.solid.openClosed.example2.good;
 
-public class Operation {
+public interface Operation {
 
-    private OperationType type;
-
-    public OperationType getType() {
-        return type;
-    }
+    void calculate(int num1, int num2);
 
 }

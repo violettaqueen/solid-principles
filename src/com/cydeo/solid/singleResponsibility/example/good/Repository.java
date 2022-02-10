@@ -1,4 +1,4 @@
-package com.cydeo.solid.dependencyInversion.example.good;
+package com.cydeo.solid.singleResponsibility.example.good;
 
 public class Repository {
 

@@ -1,2 +1,7 @@
-package com.cydeo.solid.interfaceSegregation.example.good;public class CanWalk {
+package com.cydeo.solid.interfaceSegregation.example.good;
+
+public interface CanWalk {
+
+    void walk();
+
 }

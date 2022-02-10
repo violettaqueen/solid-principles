@@ -5,6 +5,5 @@ public interface Bird {
     void eat();
     void walk();
     void fly();
-    void swim();
 
 }

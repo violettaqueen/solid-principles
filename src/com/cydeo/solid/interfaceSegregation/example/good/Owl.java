@@ -1,6 +1,6 @@
-package com.cydeo.solid.interfaceSegregation.example.bad;
+package com.cydeo.solid.interfaceSegregation.example.good;
 
-public class Owl implements Bird {
+public class Owl implements CanEat, CanWalk, CanFly {
 
     @Override
     public void eat() {

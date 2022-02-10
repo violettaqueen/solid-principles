@@ -1,18 +1,22 @@
 package com.cydeo.solid.interfaceSegregation.example.good;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class App {
+public class MyApp {
 
-    private List<CanFly> flyingBirds;
+    public static void main(String[] args) {
 
-    public App(List<CanFly> flyingBirds) {
-        this.flyingBirds = flyingBirds;
+        List<CanFly> flyingBirds = new ArrayList<>();
+        flyingBirds.add(new Eagle());
+        flyingBirds.add(new Owl());
+//        flyingBirds.add(new Chicken());   // This will throw an error, because Chicken class is not a child of CanFly interface.
+                                            // So now, the compiler knows that chickens can not fly.
     }
 
-    public void letBirdsFly() {
+    public void letBirdsFly(List<CanFly> flyingBirds) {
         for (CanFly flyingBird : flyingBirds) {
-            flyingBird.fly();             // No Chicken object can be used in here.
+            flyingBird.fly();               // No Chicken object can be used in here.
         }
     }
 

@@ -1,9 +1,9 @@
-package com.cydeo.solid.dependencyInversion.example.bad;
+package com.cydeo.solid.dependencyInversion.example.good;
 
-public class XMLReader {
+public class XMLReader implements Reader {
 
     public String getUsername() {
-        return "mikesmith";
+        return "<username>mikesmith</username>";
     }
 
 }
