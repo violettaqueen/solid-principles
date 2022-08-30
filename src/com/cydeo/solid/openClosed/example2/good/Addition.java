@@ -7,4 +7,5 @@ public class Addition implements Operation{
         System.out.println(num1 + num2);
     }
 
+
 }

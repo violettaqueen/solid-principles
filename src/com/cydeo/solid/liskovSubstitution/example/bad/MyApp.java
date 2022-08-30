@@ -23,8 +23,8 @@ public class MyApp {
     public static void changeHeightAndWidth(List<Rectangle> rectangles) {
 
         for (Rectangle rectangle : rectangles) {
-            rectangle.setHeight(5);
-            rectangle.setWidth(6);
+            rectangle.setHeight(5);                  // Rectangle H -> 5
+            rectangle.setWidth(6);                   // Rectangle W -> 6
             System.out.println(rectangle.getArea() == 30);
         }
 
