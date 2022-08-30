@@ -8,13 +8,16 @@ public class DrawShape {
 
         for (Object shape : shapes) {
 
-            if (shape instanceof Circle) {
+            if (shape instanceof Circle) { //
                 System.out.println("Drawing a circle.");
             }
 
             if (shape instanceof Rectangle) {
                 System.out.println("Drawing a rectangle.");
             }
+            // if we need to draw another shape later? - Triangle
+
+
 
         }
 
