@@ -7,7 +7,7 @@ public class MyApp {
 
     public static void main(String[] args) {
 
-        List<Bird> birds = new ArrayList<>();
+        List<Bird> birds = new ArrayList<>();             // change Bird to CanFly
         birds.add(new Eagle());
         birds.add(new Owl());
         birds.add(new Chicken());
@@ -18,7 +18,7 @@ public class MyApp {
 
     public static void letBirdsFly(List<Bird> birds) {
         for (Bird bird : birds) {
-            bird.fly();  // does nothing for chicken
+            bird.fly();                                   // does nothing for chicken
         }
     }
 
