@@ -18,7 +18,7 @@ public class MyApp {
 
     public static void letBirdsFly(List<Bird> birds) {
         for (Bird bird : birds) {
-            bird.fly();             // We implemented fly() in Chicken class but chickens can not fly.
+            bird.fly();
         }
     }
 

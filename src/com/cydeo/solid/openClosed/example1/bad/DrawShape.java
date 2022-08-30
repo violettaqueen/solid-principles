@@ -16,8 +16,6 @@ public class DrawShape {
                 System.out.println("Drawing a rectangle.");
             }
 
-            // What if we need to draw another shape later?
-
         }
 
     }

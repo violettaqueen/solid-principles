@@ -23,8 +23,6 @@ public class Calculator {
             System.out.println(num1 / num2);
         }
 
-        // What if we need to add another operation later?
-
     }
 
 }
